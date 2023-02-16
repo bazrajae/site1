@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+  }
+  body{
+    margin: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  }
+  .bbb{
+    height: 60px;
+    /* background: rgb(191, 19, 176) ; */
+    }
+   
+    .listes{
+        list-style-type: none;
+        background: linear-gradient(to right, #f1e3dd,#583503);
+        /* background: rgb(136, 178, 241); */
+        height: 60%;
+        justify-content: center;
+        align-items:center;
+        position:relative;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .items{
+        margin-right: 10px;
+        color:rgb(8, 9, 9);
+        cursor:pointer;
+        font-size: 20px;
+  
+    }
+    a{
+      text-decoration: none;
+    }
+    h1{
+        color: #3003c3;
+        text-align: center;
+    }
+    h3{
+      color: #3003c3;
+    }
+    .cnt{
+      display: inline;
+      
+      margin-left: 100px;
+    }
+    .imgcnt{
+      margin-left: 400px;
+      width: 300px;
+      height: 250px;
+    }
+
+    /* debut services */
+.services-section{
+  width: 100%;
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+.services-section img{
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+/*transition de image de services*/
+.services-section img:hover{
+  transform: rotate(20deg);
+}
+.srv-carte{
+  padding: 6px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 7px -2px #0000007d;
+}
+.srv-carte h1{
+  color:#2e3244 ;
+  margin-bottom: 0;
+}
+.srv-carte p{
+margin-top: 0;
+font-size: 13px;
+color: #7a7a7a;
+}
+.srv-carte a{
+  color: #ee865b;
+  text-transform: uppercase;
+  font-size: 12px;
+  float: right;
+}
+.w-30{
+  width: 30%;
+}
+.container{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.A{
+font-family: Kristi;
+font-size: 40px;
+font-weight: 600;
+color: #cfa670;
+}
+.B{
+  margin:auto;
+  width: 80%;
+}
+h1{
+  color: #cfa670;
+}
+
+/* fin services */
