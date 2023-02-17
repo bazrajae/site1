@@ -9,7 +9,7 @@ const Menu = () => {
            
             <ul class="listes">
             {/* <NavLink to='/' className="items"> <li >Accueil</li></NavLink> */}
-                <NavLink to='/site1' className="items"> <li >Accueil</li></NavLink>
+                <NavLink to='/site1' className="items"> <li >Accueils</li></NavLink>
                 <NavLink to='/Portofolio' className="items"> <li >Portofolio</li></NavLink>
                 <NavLink to='/Services' className="items"> <li >Services</li></NavLink>
                 {/* <NavLink to='/Apropos' className="items"> <li>A propos</li></NavLink> */}
