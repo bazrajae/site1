@@ -8,6 +8,35 @@
     margin: 0;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
   }
+  .R{
+    font-family: Kristi, "Comic Sans MS", cursive, sans-serif;
+    font-size: 70px;
+    line-height: 50px;
+    color: #cfa670;
+    font-style: italic;
+    vertical-align: baseline;
+   
+   
+}
+
+.b2{
+  margin: right;
+  width: 50%;
+ }
+ 
+ .r3{
+  margin: 10px 0 20px 0;
+    font-size: 12px;
+    color: #777;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+ }
+  
   .bbb{
     height: 60px;
     /* background: rgb(191, 19, 176) ; */
@@ -64,6 +93,7 @@
   cursor: pointer;
   transition-duration: 0.4s;
 }
+
 /*transition de image de services*/
 .services-section img:hover{
   transform: rotate(20deg);
@@ -96,6 +126,12 @@ color: #7a7a7a;
   margin: auto;
   display: flex;
   justify-content: space-between;
+}
+.containers{
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
 }
 .A{
 font-family: Kristi;
