@@ -131,10 +131,11 @@ color: #7a7a7a;
   width: 60%;
   margin: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .containersc {
-  width: 60%;
+  width: 80%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   border-radius: 3px;
